@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Albo1125.Common</RootNamespace>
     <AssemblyName>Albo1125.Common</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
     </SccProjectName>
@@ -60,14 +60,12 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LSPD First Response, Version=0.3.38.5436, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>dependencies\LSPD First Response.dll</HintPath>
+    <Reference Include="LSPD First Response">
+      <HintPath>..\..\..\..\..\GTA5\LSPDFR\LSPD First Response.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
-    <Reference Include="RagePluginHookSDK, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>dependencies\RagePluginHookSDK.dll</HintPath>
+    <Reference Include="RagePluginHookSDK">
+      <HintPath>..\..\..\..\..\GTA5\LSPDFR\RagePluginHookSDK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -92,7 +90,6 @@
     <Compile Include="DependencyChecker.cs" />
     <Compile Include="CommonLibrary\ExtensionMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpdateChecker.cs" />
     <Compile Include="CommonLibrary\Zones.cs" />
   </ItemGroup>
   <ItemGroup>
